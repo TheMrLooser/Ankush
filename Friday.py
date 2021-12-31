@@ -343,7 +343,7 @@ def Whatsapp_masseg_send(commands):
                 time_for_sendMasseg1 = time_for_sendMasseg.split(" ")
                 minut_time_for_sendMasseg1 = int(time_for_sendMasseg1[0])
                 hour_time_for_sendMasseg1 = int(time_for_sendMasseg1[3])
-                pywhatkit.sendwhatmsg("+918368185229",massege_send,hour_time_for_sendMasseg1,minut_time_for_sendMasseg1)
+                pywhatkit.sendwhatmsg("your number ",massege_send,hour_time_for_sendMasseg1,minut_time_for_sendMasseg1)
 
             elif massege_send=="now":
                 pywhatkit.sendwhatmsg_instantly()
@@ -359,7 +359,7 @@ def Whatsapp_masseg_send(commands):
                 time_for_sendMasseg1 = time_for_sendMasseg.split(" ")
                 minut_time_for_sendMasseg1 = int(time_for_sendMasseg1[0])
                 hour_time_for_sendMasseg1 = int(time_for_sendMasseg1[3])
-                pywhatkit.sendwhatmsg("+9193196 43218",massege_send,hour_time_for_sendMasseg1,minut_time_for_sendMasseg1)
+                pywhatkit.sendwhatmsg("your number ",massege_send,hour_time_for_sendMasseg1,minut_time_for_sendMasseg1)
 
             elif massege_send=="now":
                 pywhatkit.sendwhatmsg_instantly()
@@ -414,7 +414,7 @@ def opening_system_app(commands):
         speak("opening file manager")
         os.startfile(path)
     elif "open gmail" in commands:
-        path = "https://mail.google.com/mail/u/0/#inbox"
+        path = "your gmail path "
         speak("opening gmail")
         webbrowser.open(path)
 
