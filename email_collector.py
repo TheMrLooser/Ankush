@@ -3,7 +3,7 @@ import bs4
 import re
 
 def email_colector():
-     url = 'https://www.lifewire.com/best-free-email-accounts-1356641'  # web link from where you want to collect email
+     url = 'https://www.lifewire.com/best-free-email-accounts-1356641'  # web link from where you want to collect email you can palce your web link here
      text  = requests.get(url)
      data  = bs4.BeautifulSoup(text.text,'html.parser')
      data_string = str(data)
