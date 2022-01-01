@@ -33,12 +33,12 @@ print("Composing email....")
 
 SERVER = 'smtp.gmail.com'  # your smtp server for sending email
 PORT = 587 # your port no.
-FROM = 'ankushsoni7171@gmail.com' # your email id
+FROM = 'xyz@gmail.com' #  write your email id here
 
 # for getting lists of email
 email_list = email_collector.email_colector()
-TO  = '' # your email id ,it can be a list
-PASS = 'ankush son' # your email password
+TO  = 'abcd@gmail.com' # clint  email id  on witch you want to send email ,it can be a list
+PASS = '********' # write your email password here
 
 msg = MIMEMultipart()
 msg['subject'] = 'Top News Stories HN [autometed email]' + '' + str(now.day) +'-'+str(now.month)+'-'+str(now.year)
